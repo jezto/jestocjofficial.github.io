@@ -470,9 +470,14 @@ function initLandbot() {
   }
 }
 	       
-document.querySelectorAll('a[href]').forEach(function(a) { 
-	a.remove(); 
-});
+function myFunction() {
+  var x = document.getElementsByClassName("sc-fIxmyt cnkbFD button Branding__Button");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 	       
 </script>
     </body>
